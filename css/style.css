@@ -18,3 +18,62 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4.5em;
+  margin: 0px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px #ccc solid;
+}
+
+#toptitle a:link {
+  text-decoration: none;
+  color: #98ada6;
+}
+
+#toptitle a:hover {
+  text-decoration: none;
+  color: #6f7f7a;
+}
+
+#cover img {
+  border: 5px rgb(152,173,166) solid;
+  margin-top: 5px;
+}
+
+h2 {
+  color: #6f7f7a;
+  font-size: 2em;
+}
+
+p {
+  color: #555;
+}
+
+p a:link {
+  text-decoration: none;
+  color: #1783ca;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+#presslinks img {
+  border: 5px rgb(152,173,166) solid;
+  border: 5px rgba(152,173,166,.5) solid;
+}
+
+#presslinks a:hover img {
+  border: 5px rgb(152,173,166) solid;
+  border: 5px rgba(152,173,166,1) solid;
+}
+
+footer {
+  text-align: right;
+}
+
+p.small {
+  font-size: 0.8em;
+}
